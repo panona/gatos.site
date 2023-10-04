@@ -1,0 +1,93 @@
+/* Reset de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo do site */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #800080;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Estilo da seção de introdução */
+.intro {
+    background-color: #fff;
+    padding: 40px;
+    text-align: center;
+}
+
+/* Estilo das seções de raças e galeria */
+.breeds, .gallery {
+    padding: 40px;
+}
+
+h2 {
+    color: #800080;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.breed, .image {
+    margin-bottom: 40px;
+}
+
+.breed img, .image img {
+    max-width: 100%;
+}
+
+.breed h3 {
+    color: #800080;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.breed p {
+    margin-top: 10px;
+}
+
+.breed a {
+    color: #800080;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.breed a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #800080;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
